@@ -44,7 +44,7 @@ def add():
     ongmed_label=Label(root,text="Ongoing Medications: ").grid(row=9,column=0)
     ongmed_entry=Entry(root,width=30).grid(row=0,column=1)
     
-    cursor.execute("insert into record values(\""+un_id_entry.get()+"\",\""+name_entry.get()+"\",\""+gender_entry.get()+"\",\""+address_entry.get()+"\",\""+height_entry.get()+"\",\""+weight_entry.get()+"\",\""+bloodgrp_entry.get()+"\",\""+allergies_entry.get()+"\",\""+ongmed_entry.get()+"\"");")
+    cursor.execute("insert into record values(\""+un_id_entry.get()+"\",\""+name_entry.get()+"\",\""+gender_entry.get()+"\",\""+address_entry.get()+"\",\""+height_entry.get()+"\",\""+weight_entry.get()+"\",\""+bloodgrp_entry.get()+"\",\""+allergies_entry.get()+"\",\""+ongmed_entry.get()+"\"")
 
     
 def delete():
